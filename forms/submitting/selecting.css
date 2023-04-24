@@ -1,0 +1,56 @@
+:root {
+    --primary: #8C38FF;
+    --light: #EEEEEE;
+    --dark: #212121;
+}
+
+
+
+.card{
+    margin-top:150px;
+    text-align:center;
+}
+
+#main_h{
+    margin-top:200px;
+    color: var(--dark);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card button{
+    padding:10px;
+    border:none;
+    background-color:var(--light);
+    margin-right:30px;
+    width:300px;
+    font-size: 30px;
+    border-radius: 15px;
+    transition-duration: 0.25s;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+    color: var(--dark);
+    box-shadow: 1px 1px 10px black;
+    margin-bottom:50px;
+}
+
+.card a{
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+}
+.card button:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+.card button p{
+    margin-top:50px;
+    color:#3D403F;
+    font-size: 20px;
+    padding:10px;
+}
+
+#lung_cancer{
+    margin-right: 0px;
+}

@@ -1,0 +1,51 @@
+*, html{
+	padding:0px;
+	margin:0px;
+}
+
+:root {
+    --primary: #8C38FF;
+    --light: #EEEEEE;
+    --dark: #212121;
+}
+html, body {
+  height: 100%;
+  background-color: #ececec;
+}
+.aboutUs_h{
+	float:left;
+	width:300px;
+	height:100%;
+	background-color: var(--primary);
+}
+
+.aboutUs_h h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+	transform:rotate(-90deg);
+	font-size: 100px;
+	position:absolute;
+	margin-top:300px;
+	left:-65px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:40px;
+	font-size: 20px;
+	float: right;
+}
+
+#text{
+	position: relative;
+	top:150px;
+	left:100px;
+	color:#494A4C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-align: left;
+	margin-right: 100px;
+	padding-right:100px;
+}
+/*Use this as text color : #494A4C*/
